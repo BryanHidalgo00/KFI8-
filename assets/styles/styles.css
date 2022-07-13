@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*styles-header*/
+header {
+    width: 100%;
+    height: 79px;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header__logo a {
+    text-decoration: none;
+    color: #505050;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+ul a {
+    text-decoration: none;
+    color: #505050;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.header__lastbtn {
+    border-radius: 20px;
+    background-color: #505050;
+    color: rgb(255, 255, 255);
+}
+
+.subheader {
+    width: 100%;
+    height: 79px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+
+/*end styles-header*/
+
+/*styles-element*/
+.element {
+    width: 100%;
+    height: 40px;
+}
+
+.element__txt {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.element__txt a {
+    text-decoration: none;
+    color: #505050;
+    font-weight: 600;
+
+}
+
+.element__txt p {
+    border-bottom: solid #505050;
+    padding-bottom: 10px;
+    width: 85.5px;
+}
+
+/*end styles-element*/
+
+/*styles content-primary*/
+.content-primary {
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+}
+
+.content-primary__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+}
+
+.content-primary__p {
+    font-size: 58px;
+    font-weight: 600;
+    color: #505050;
+}
+
+.content-primary__outline {
+    width: 250px;
+    height: 4px;
+    background-color: #505050;
+}
+
+/*end styles content-primary*/
+
+/* styles search */
+.search {
+    width: 100%;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+}
+.search__bar{
+    width: 36%;
+    height: 100%;
+    max-width: 100%;
+    padding-left: 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+.search__bar__p{
+    color:#989898;
+    font-size: 20px;
+}
+
+.search__bar__a{
+    height: 60px;
+    width: 60px;
+    background-color: #505050;
+    border-radius: 0px 25px;
+    color: #ffffff;
+}
+.search__bar__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* end styles search  */
